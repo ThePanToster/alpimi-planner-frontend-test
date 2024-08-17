@@ -46,6 +46,6 @@ jobs:
                   username: ${{ secrets.SSH_USERNAME }}
                   key: ${{ secrets.SSH_KEY }}
                   port: ${{ secrets.SSH_PORT }}
-                  target: ${{ secrets.SERVER_ROOT_PATH }}
+                  target: www/alpimi
                   source: 'dist'
                   rm: true
